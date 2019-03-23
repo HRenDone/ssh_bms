@@ -12,22 +12,28 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.junit.Test;
-
-public class CustomerTest_hbm {
+import org.springframework.transaction.annotation.Transactional;
+@Transactional
+public class Test_hbm {
 
 	@Test
 	public void test() {
-		Customer customer = new Customer();
-		customer.setC_Id("aaa");
+		//Customer customer = new Customer();
+		//customer.setC_Id("aaaa");
+		//Bank bank =  new Bank();
+		//bank.setBank_Id("dasda");
 		Configuration configuration = new Configuration().configure();
 		SessionFactory sessionFactory= configuration.buildSessionFactory();
 		Session session = sessionFactory.openSession();
 		Transaction tx = session.beginTransaction();
-		session.save(customer);
+		Bank bank = session.get(Bank.class,1);
+		//System.out.println("======"+bank.getBank_Id());
+		//session.save(customer);
 		//session.save(BankCard);
 		tx.commit();
 		session.close();
 		sessionFactory.close();
+		System.out.println("====="+bank.getBank_Id());
 		
 	
 		

@@ -1,0 +1,194 @@
+2019-03-23 10:00:44 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 10:00:44 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 10:00:45 上午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 10:00:45 上午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 10:00:45 上午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 10:00:45 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11aow2dqlterfb|3e2e18f2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11aow2dqlterfb|3e2e18f2, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 10:00:45 上午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 10:00:45 上午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:98) ]
+INFO:HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-03-23 10:02:01 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 10:02:01 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 10:02:01 上午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 10:02:01 上午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 10:02:02 上午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 10:02:02 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11aoxpl4ctm3ri|3e2e18f2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11aoxpl4ctm3ri|3e2e18f2, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 10:02:02 上午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 10:02:02 上午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:98) ]
+INFO:HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-03-23 10:02:14 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 10:02:14 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 10:02:15 上午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 10:02:15 上午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 10:02:15 上午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 10:02:15 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11aoxzqy130vwvk|3e2e18f2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11aoxzqy130vwvk|3e2e18f2, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 10:02:15 上午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 10:02:15 上午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:98) ]
+INFO:HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-03-23 10:05:22 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 10:05:22 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 10:05:23 上午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 10:05:23 上午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 10:05:23 上午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 10:05:23 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11ap20vey5jnhs|3e2e18f2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11ap20vey5jnhs|3e2e18f2, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 10:05:23 上午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 10:05:23 上午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:98) ]
+INFO:HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-03-23 10:06:00 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 10:06:00 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 10:06:01 上午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 10:06:01 上午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 10:06:01 上午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 10:06:01 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11ap2u8c188ska4|3e92efc3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11ap2u8c188ska4|3e92efc3, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 10:06:01 上午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 10:06:01 上午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:98) ]
+INFO:HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-03-23 10:07:00 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 10:07:00 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 10:07:00 上午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 10:07:00 上午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 10:07:00 上午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 10:07:01 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11ap44861ro8mig|2df3b89c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11ap44861ro8mig|2df3b89c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 10:07:01 上午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 10:07:01 上午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:98) ]
+INFO:HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-03-23 10:34:55 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 10:34:55 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 10:34:56 上午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 10:34:56 上午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 10:34:56 上午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 10:34:56 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11aq40s81hvoaxf|3f197a46, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11aq40s81hvoaxf|3f197a46, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 10:34:56 上午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 10:34:56 上午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:98) ]
+INFO:HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-03-23 12:12:47 下午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 12:12:47 下午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 12:12:48 下午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 12:12:48 下午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 12:12:48 下午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 12:12:48 下午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11atlvphkeod4k|9353778, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11atlvphkeod4k|9353778, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 12:12:48 下午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 12:12:48 下午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:124) ]
+INFO:HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-03-23 12:14:01 下午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 12:14:01 下午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 12:14:02 下午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 12:14:02 下午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 12:14:02 下午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 12:14:02 下午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11atngwi11j9nsd|7e0b85f9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11atngwi11j9nsd|7e0b85f9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 12:14:02 下午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 12:14:02 下午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:124) ]
+INFO:HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-03-23 12:14:04 下午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) ]
+WARN:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demoTest': Unsatisfied dependency expressed through field 'bank'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zucc.edu.bean.Bank' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-03-23 12:15:18 下午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 12:15:18 下午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 12:15:19 下午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 12:15:19 下午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 12:15:19 下午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 12:15:19 下午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11atp44vwbnik1|50b472aa, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11atp44vwbnik1|50b472aa, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 12:15:19 下午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 12:15:19 下午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:124) ]
+INFO:HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-03-23 12:52:20 下午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 12:52:20 下午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 12:52:20 下午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 12:52:20 下午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 12:52:20 下午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 12:52:20 下午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11av0qa61lb6yqo|411f53a0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11av0qa61lb6yqo|411f53a0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 12:52:21 下午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 12:52:21 下午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:124) ]
+INFO:HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-03-23 12:54:54 下午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2019-03-23 12:54:55 下午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-03-23 12:54:55 下午 [Thread: main][ Class:org.hibernate.Version >> Method: org.hibernate.Version.logVersion(Version.java:45) ]
+INFO:HHH000412: Hibernate Core {5.2.10.Final}
+2019-03-23 12:54:55 下午 [Thread: main][ Class:org.hibernate.cfg.Environment >> Method: org.hibernate.cfg.Environment.<clinit>(Environment.java:213) ]
+INFO:HHH000206: hibernate.properties not found
+2019-03-23 12:54:55 下午 [Thread: main][ Class:org.hibernate.annotations.common.Version >> Method: org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) ]
+INFO:HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-23 12:54:55 下午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge136a11av41og3be7jv|411f53a0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge136a11av41og3be7jv|411f53a0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/rhdata, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-03-23 12:54:55 下午 [Thread: main][ Class:org.hibernate.dialect.Dialect >> Method: org.hibernate.dialect.Dialect.<init>(Dialect.java:157) ]
+INFO:HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-23 12:54:55 下午 [Thread: main][ Class:org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl >> Method: org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation(LobCreatorBuilderImpl.java:124) ]
+INFO:HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
